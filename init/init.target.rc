@@ -106,7 +106,6 @@ on boot
     setprop vendor.usb.dpl.inst.name "dpl"
     setprop vendor.usb.qdss.inst.name "qdss"
     write /sys/module/usb_f_qcrndis/parameters/rndis_dl_max_xfer_size 15916
-    setprop sys.usb.configfs 1
 
     # Touchpanel
     chown system system /sys/touchpanel/double_tap

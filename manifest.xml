@@ -1,4 +1,5 @@
 <manifest version="2.0" type="device" target-level="6">
+    <kernel target-level="legacy" />
     <hal format="hidl">
         <name>android.hardware.audio</name>
         <transport>hwbinder</transport>
@@ -13,11 +14,6 @@
         <name>android.hardware.bluetooth</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IBluetoothHci/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>android.hardware.camera.provider</name>
-        <transport>hwbinder</transport>
-        <fqname>@2.4::ICameraProvider/legacy/0</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.drm</name>
@@ -126,13 +122,6 @@
         <name>vendor.display.postproc</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IDisplayPostproc/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.lineage.livedisplay</name>
-        <transport>hwbinder</transport>
-        <fqname>@2.0::IAdaptiveBacklight/default</fqname>
-        <fqname>@2.0::IDisplayModes/default</fqname>
-        <fqname>@2.0::IPictureAdjustment/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.data.factory</name>
