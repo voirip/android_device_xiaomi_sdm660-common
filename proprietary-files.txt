@@ -54,9 +54,10 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so|271f85f1c6dc0c65dc3aa9a8603f3910fa
 
 # ANT+ - from jasmine
 system/lib64/libantradio.so:system_ext/lib64/libantradio.so;DISABLE_CHECKELF|43f6105678c082216f1606d8dd43fa1b0b753d7e
-product/lib64/com.qualcomm.qti.ant@1.0.so:system_ext/lib64/com.qualcomm.qti.ant@1.0.so|f40868ad57012f1a512b14c889bc8380652cc50f
-vendor/lib64/com.qualcomm.qti.ant@1.0.so;MODULE_SUFFIX=_vendor|181a8ab9b1d40705d3151821b53732c5566a2848
-vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|aa08f9ec51392ed841f60ad08b7f083312c8c5ee
+product/lib64/com.dsi.ant@1.0.so:system_ext/lib64/com.dsi.ant@1.0.so
+vendor/lib/com.dsi.ant@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/com.dsi.ant@1.0.so;MODULE_SUFFIX=_vendor
+vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Audio - from jasmine
 vendor/lib/libacdb-fts.so|7e542fe676bdeaf0347dada88683a67cb861d96d
@@ -104,6 +105,7 @@ vendor/lib/btaudio_offload_if.so;DISABLE_CHECKELF|d9a9795e173dffd4b5ee000acac66c
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|947afef6bf7a05a9a2b45022edfed06bd7c00e64
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|1360ae1d4f10d3762699d6ce82b456d8a0145a23
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|b2a644519ad0d890274c384f76269de76e706058
+vendor/lib/vendor.qti.hardware.btconfigstore@2.0.so
 vendor/lib/libbluetooth_audio_session_qti.so;DISABLE_CHECKELF|53fd0369c50fbaef12c22e25e3073a6fc9f05bb7
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|5c24249adf85a30aa66f6a391bf697063d989a87
 vendor/lib/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|89a7ec5cc673d13afc73116eccff2e58f218a34d
@@ -111,6 +113,8 @@ vendor/lib64/btaudio_offload_if.so;DISABLE_CHECKELF|9caa0bbcb821e6368d5fc27188e3
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|332bbe7b0e76358500605f7651b0dcfa0cd7f27b
 vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|71ad8980142e7d8d754607accc0cffd8f5e68dbd
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|f9dcf9a19a0b601969bcd606bedb8a8419de9d81
+vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so
+vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so
 vendor/lib64/libbluetooth_audio_session_qti.so;DISABLE_CHECKELF|1ad5ed72708f791f9b70ca1b4a6e221855dbfa8e
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|9346946b110086a6b473c8226e072e9a0cdbb87e
 vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|073cace3aa8d0ffa025d9df67c45f8a907109339
@@ -613,8 +617,8 @@ vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e157937
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|e47baed52f1c0637de34fa55e45a86b4b412a672
 
 # Widevine - from jasmine
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec050afab5c64b9f87
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
+vendor/bin/hw/android.hardware.drm@1.3-service.widevine
+vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 vendor/lib64/libwvhidl.so;DISABLE_CHECKELF|0466cd3b2a7b93efd23945e2637430513472ad7c|8b9012dcd235aa3c67ad09b6f57491362ba6291a
 
 ## proprietary-files-fm.txt
