@@ -537,13 +537,13 @@ vendor/lib64/libwvhidl.so;DISABLE_CHECKELF|05ead6d529c5f035e02bec7f03cec6a05cdcd
 
 ## proprietary-files-fm.txt
 # FM - from jasmine V11.0.28.0.QDIMIXM
-system/lib64/fm_helium.so:system_ext/lib64/fm_helium.so|b2440e4feaae8a7f5e2269525520f9774b6962fc
-system/lib64/libfm-hci.so:system_ext/lib64/libfm-hci.so|758c6e7cfafc964b5cd9d71806ec5455e0d78716
+system_ext/lib64/fm_helium.so|b2440e4feaae8a7f5e2269525520f9774b6962fc
+system_ext/lib64/libfm-hci.so|758c6e7cfafc964b5cd9d71806ec5455e0d78716
 vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|05931b5d088bd7000b0b002ee650b0953e272cd7
 
 ## proprietary-files-ir.txt
 # ConsumerIR (lirc) - from jason V12.0.1.0.PCHCNXM
-vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.lirc.sdm660.so;FIX_SONAME|8c614f98e2a42b5ba9e148c01b3d69e7fb59ce1d|2c60e2cfc2ded7335dcd3d294393e4c564d02621
+# vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.lirc.sdm660.so;FIX_SONAME|8c614f98e2a42b5ba9e148c01b3d69e7fb59ce1d|2c60e2cfc2ded7335dcd3d294393e4c564d02621
 
 # ConsumerIR (spi) - from jasmine V11.0.28.0.QDIMIXM
-vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.spi.sdm660.so;FIX_SONAME|d1f275a91557dfab52e82906986c5094fe078722|f086cf79cff5624554e3bfb67d44386b94578c4b
+# vendor/lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.spi.sdm660.so;FIX_SONAME|d1f275a91557dfab52e82906986c5094fe078722|f086cf79cff5624554e3bfb67d44386b94578c4b
