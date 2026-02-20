@@ -51,6 +51,11 @@ lib_fixups: lib_fixups_user_type = {
 
 
 blob_fixups: blob_fixups_user_type = {
+    'system_ext/lib64/libfm-hci.so': blob_fixup()
+        .replace_needed('vendor.qti.hardware.fm@1.0.so', 'vendor.qti.hardware.fm@1.0_vendor.so'),
+    'system_ext/lib64/fm_helium.so': blob_fixup()
+        .replace_needed('vendor.qti.hardware.fm@1.0.so', 'vendor.qti.hardware.fm@1.0_vendor.so'),
+
     (
         'vendor/bin/mlipayd@1.1',
     ): blob_fixup()
