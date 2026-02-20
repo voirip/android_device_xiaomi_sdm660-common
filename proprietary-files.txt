@@ -74,11 +74,11 @@ vendor/lib64/libbtnv.so|0c74a43550b939b9496b03b3285fa950cf560c48
 # Bluetooth (A2DP) - from jasmine
 vendor/lib/btaudio_offload_if.so;DISABLE_CHECKELF|752c3e774c1585f7842ecbd85180365d85fc789f
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|f5ea997b223943101bed84470f191b2e4ce8957c
-vendor/lib/vendor.qti.hardware.btconfigstore@2.0.so|3dd9544150bb74d6b9dfb6f8c79e96600363a182
+# vendor/lib/vendor.qti.hardware.btconfigstore@2.0.so|3dd9544150bb74d6b9dfb6f8c79e96600363a182
 vendor/lib/libbluetooth_audio_session_qti.so;DISABLE_CHECKELF|9a86488113e10594e0a3d4a36b436c6b7fd59317
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so|3097cb00777c2911cff40e323ce3c921923722d8
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@2.0-impl.so|cfc982fd153084781f540bcc4a31b6b05a9ced19
-vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so|745dbd4ad99c38091e9aeaf734ee031aa5a35c96
+# vendor/lib64/vendor.qti.hardware.btconfigstore@2.0.so|745dbd4ad99c38091e9aeaf734ee031aa5a35c96
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|23706dcfa35cc6f7dee934e13886c19a56a9aa12
 vendor/lib64/vendor.qti.hardware.fm@1.0.so;MODULE_SUFFIX=_vendor|f6e23f902b7e15232b20af55161a24da93ffe25f
 
