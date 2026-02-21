@@ -164,3 +164,9 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit the proprietary files
 include vendor/xiaomi/sdm660-common/BoardConfigVendor.mk
+
+# Workaround for /file_list.txt error in kernel.mk
+vendorimage_intermediates := $(call intermediates-dir-for,PACKAGING,vendor)
+systemimage_intermediates := $(call intermediates-dir-for,PACKAGING,system)
+vendor_dlkmimage_intermediates := $(call intermediates-dir-for,PACKAGING,vendor_dlkm)
+system_dlkmimage_intermediates := $(call intermediates-dir-for,PACKAGING,system_dlkm)
