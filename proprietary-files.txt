@@ -302,8 +302,8 @@ vendor/lib/libgcs.so|136b036d645ce31c3265cf2aed00c472ecec37e4
 vendor/lib/libsmwrapper.so|0fbf611c9a597f7c70bfd2363dfc7f465d1dafd5
 
 # Media - from jasmine
-system/lib/libFileMux.so|22005fb1595b2b76e199b82ff3790c1bc3d54a20
-system/lib/libOmxMux.so;DISABLE_CHECKELF|66ccc804301bccfbd17afb39a60131dd1a3fa9bc
+# system/lib/libFileMux.so|22005fb1595b2b76e199b82ff3790c1bc3d54a20
+# system/lib/libOmxMux.so;DISABLE_CHECKELF|66ccc804301bccfbd17afb39a60131dd1a3fa9bc
 
 # Mlipay - from wayne V11.0.3.0.PDCCNXM
 vendor/bin/mlipayd@1.1|4c30cfd1b32f99ff3043eadca8e7a4b7b9a00c79|4c30cfd1b32f99ff3043eadca8e7a4b7b9a00c79

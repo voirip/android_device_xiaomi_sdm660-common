@@ -51,6 +51,15 @@ lib_fixups: lib_fixups_user_type = {
 
 
 blob_fixups: blob_fixups_user_type = {
+    'system_ext/lib64/libdpmframework.so': blob_fixup()
+        .replace_needed('com.qualcomm.qti.dpm.api@1.0.so', 'com.qualcomm.qti.dpm.api@1.0_vendor.so'),
+    'system_ext/lib64/libdpmctmgr.so': blob_fixup()
+        .replace_needed('com.qualcomm.qti.dpm.api@1.0.so', 'com.qualcomm.qti.dpm.api@1.0_vendor.so'),
+    'system_ext/lib64/libdpmfdmgr.so': blob_fixup()
+        .replace_needed('com.qualcomm.qti.dpm.api@1.0.so', 'com.qualcomm.qti.dpm.api@1.0_vendor.so'),
+    'system_ext/lib64/libdpmtcm.so': blob_fixup()
+        .replace_needed('com.qualcomm.qti.dpm.api@1.0.so', 'com.qualcomm.qti.dpm.api@1.0_vendor.so'),
+
     'system_ext/lib64/libfm-hci.so': blob_fixup()
         .replace_needed('vendor.qti.hardware.fm@1.0.so', 'vendor.qti.hardware.fm@1.0_vendor.so'),
     'system_ext/lib64/fm_helium.so': blob_fixup()
