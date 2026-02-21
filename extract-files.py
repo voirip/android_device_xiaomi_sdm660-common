@@ -51,6 +51,9 @@ lib_fixups: lib_fixups_user_type = {
 
 
 blob_fixups: blob_fixups_user_type = {
+    'system_ext/bin/dpmd': blob_fixup()
+        .replace_needed('com.qualcomm.qti.dpm.api@1.0.so', 'com.qualcomm.qti.dpm.api@1.0_vendor.so'),
+
     'vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti': blob_fixup()
         .remove_needed('vendor.qti.hardware.bluetooth_sar@1.1.so'),
 
