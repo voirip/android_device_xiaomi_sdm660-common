@@ -51,6 +51,9 @@ lib_fixups: lib_fixups_user_type = {
 
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti': blob_fixup()
+        .remove_needed('vendor.qti.hardware.bluetooth_sar@1.1.so'),
+
     'vendor/lib/libadsprpc.so': blob_fixup()
         .remove_needed('vendor.qti.hardware.dsp@1.0.so'),
     'vendor/lib64/libadsprpc.so': blob_fixup()
