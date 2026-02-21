@@ -51,6 +51,9 @@ lib_fixups: lib_fixups_user_type = {
 
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/lib/btaudio_offload_if.so': blob_fixup()
+        .remove_needed('libbluetooth_audio_session_qti_2_1.so'),
+
     'system_ext/bin/dpmd': blob_fixup()
         .replace_needed('com.qualcomm.qti.dpm.api@1.0.so', 'com.qualcomm.qti.dpm.api@1.0_vendor.so'),
 
