@@ -355,3 +355,6 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
+
+PRODUCT_SOONG_NAMESPACES += vendor/xiaomi/sdm660-common
+PRODUCT_SOONG_NAMESPACES += vendor/xiaomi/whyred
