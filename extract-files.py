@@ -51,6 +51,23 @@ lib_fixups: lib_fixups_user_type = {
 
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/lib/libadsprpc.so': blob_fixup()
+        .remove_needed('vendor.qti.hardware.dsp@1.0.so'),
+    'vendor/lib64/libadsprpc.so': blob_fixup()
+        .remove_needed('vendor.qti.hardware.dsp@1.0.so'),
+    'vendor/lib/libcdsprpc.so': blob_fixup()
+        .remove_needed('vendor.qti.hardware.dsp@1.0.so'),
+    'vendor/lib64/libcdsprpc.so': blob_fixup()
+        .remove_needed('vendor.qti.hardware.dsp@1.0.so'),
+    'vendor/lib/libmdsprpc.so': blob_fixup()
+        .remove_needed('vendor.qti.hardware.dsp@1.0.so'),
+    'vendor/lib64/libmdsprpc.so': blob_fixup()
+        .remove_needed('vendor.qti.hardware.dsp@1.0.so'),
+    'vendor/lib/libsdsprpc.so': blob_fixup()
+        .remove_needed('vendor.qti.hardware.dsp@1.0.so'),
+    'vendor/lib64/libsdsprpc.so': blob_fixup()
+        .remove_needed('vendor.qti.hardware.dsp@1.0.so'),
+
     'system_ext/lib64/libdpmframework.so': blob_fixup()
         .replace_needed('com.qualcomm.qti.dpm.api@1.0.so', 'com.qualcomm.qti.dpm.api@1.0_vendor.so'),
     'system_ext/lib64/libdpmctmgr.so': blob_fixup()
