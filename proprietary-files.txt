@@ -46,8 +46,6 @@ vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|f2b57130987c65a1dc596bf83a
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so|74675e4f720d75db031a0db4ca21463ebd331f34
 
 # ANT+ - from jasmine
-vendor/lib/com.dsi.ant@1.0.so;MODULE_SUFFIX=_vendor|58769c143b7e109a8b960e76edb54ec19e762c61
-vendor/lib64/com.dsi.ant@1.0.so;MODULE_SUFFIX=_vendor|a0715006a15426a1f6b47b71a9c5f887458bf45a
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so|87dc1a131534659173e71e108e7a3ffe6325845f
 
 # Audio - from jasmine
